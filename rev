@@ -1,0 +1,195 @@
+package com.javacourse;
+
+import java.lang.*;
+import java.text.BreakIterator;
+import java.io.*;
+import java.util.*;
+
+import javax.print.DocFlavor.CHAR_ARRAY;
+
+public class PracticeJava {
+	
+
+/*	byte Age = 27;
+*	int  year= 1994;
+
+		&&--> Logical AND 
+ *  Both condition should be equals like both should be rue or false 
+ *  [Condition 1 ] [ Condition 2]   Output 
+ *  True               True         True
+ *  True               False        False
+ *  False              True         False   
+ *  False              False        False 
+ * 
+	||  __ > Logical OR 
+	Any one condition should be postivie means it will consider it as positive
+	Condtion 1] [ condition 2 ]  Output
+	True         True          = True  
+	True         False         = True
+	False        True          = True
+	False        False         = False 
+	*
+	* == -> Equals 
+	* 
+	*
+	*
+	
+	private void equals() {
+		
+		System.out.println("Equals");
+		if (Age==27) {
+			System.out.println("born in 1994 so is 27");
+			
+		}
+		
+		
+	}
+	
+	private void LogicalAND() {
+		System.out.println("AND Operator");
+		if (Age==27 && year>1995) {
+			System.out.println("Age is 20 and birth year is 1994");
+		} else {
+			System.out.println("both age and year not true");
+
+		}
+	}
+	private void logicalOR() {
+		if (Age==27|| year<1995) {
+			System.out.println("One conditipn is ture ");
+			
+		} else {
+			System.out.println("Both are not true");
+		}
+	}
+	
+	public static void main(String[] args) {
+		PracticeJava p = new PracticeJava();
+		p.equals();
+		p.LogicalAND();
+		p.logicalOR();
+		
+		
+	}*/
+	
+	public static void main(String[] args) {
+		
+/*		String str ="Java";
+		
+		StringBuilder input = new StringBuilder();
+
+		input.append(str);
+		
+		input.reverse();
+		
+		System.out.println(input);
+		
+		
+		
+		String stg ="Have a good day";
+		
+		StringBuilder rev = new StringBuilder();
+		
+		rev.append(stg);
+		
+		rev.reverse();
+		
+		System.out.println(rev);
+		*/
+		
+		
+	/*	// For Loop 
+		int i =1;
+		// initialization;condition;increase(or ) decrease 
+		
+		for (int j = 0; i <=10; i++) {
+			if (i==5) {
+				break;
+				
+			}
+			System.out.println("For loop for increment from 1 to 10 its will stop when my condition fullfiled 1="+i);
+			System.out.println("ittreation ="+i);
+			
+		}*/
+
+	/*	String s = "Automation Testing";
+		char [] rev = s.toCharArray();
+		for (int i = s.length()-1; i >=0; i--) {
+			System.out.print(rev[i]);
+			
+		}*/
+		
+	/*	// while lopp is entry level comdtion checking 
+		
+		int i = 0; // Initilization
+		System.out.print("while loop = ");
+		while (i<=10) // condition
+			{
+			
+			System.out.print("| "+i);
+			i++; // Increment or decerement 
+		}
+		
+		// do while is exit level condition checking 
+		
+		int j = 10; // initialization
+		
+		System.out.print(" ---do while = ");
+		do {
+			System.out.print(" |"+j);
+			j--;
+			
+		} while (j>=1);
+		*/
+		
+		
+		
+		List<String> arraylist = new ArrayList<>();
+		
+		arraylist.add("Java1");
+		arraylist.add("Sql");
+		arraylist.add("Selenium");
+		arraylist.add("Java1");
+		arraylist.add("cucumber");
+		
+		System.out.println(arraylist);
+		System.out.println("get value by index = "+arraylist.get(1));
+		System.out.println("Duplicate value 1 = "+arraylist.indexOf("Java1"));
+		System.out.println("Duplicate value in last =" +arraylist.lastIndexOf("Java1"));
+		arraylist.remove(0);
+		System.out.println("Removed 1st index = "+arraylist);
+	
+		arraylist.set(0, "Git");
+		System.out.println("Replaced value in 1= " +arraylist);
+		arraylist.isEmpty();
+		
+		
+	/*	for (String string : arraylist) {
+			System.out.println(string);
+			
+		}*/
+	/*	System.out.println("for loop");
+		for (int i = 0; i < arraylist.size(); i++) {
+			System.out.println(arraylist.get(i));
+			
+		}
+		
+	//	List Iterator
+		
+		ListIterator<String> itr = arraylist.listIterator();
+		while (itr.hasNext()) {
+			System.out.println(itr.next());
+		}
+		*/
+		
+		// Linked list 
+		LinkedList<int> Ll =      
+		
+	}	
+
+		
+	}
+	
+	
+
+
